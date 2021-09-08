@@ -1,0 +1,23 @@
+$main_color : green;
+.color-red{
+    color: $main_color;
+}
+.alert-modal {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 5px;
+    color : #fff;
+    max-width: 500px;
+    width:100%;
+    margin : auto;
+}
+.alert-modal2 {
+    @extend .alert-modal;
+    background: #ffe591; 
+}
+.alert-modal p{
+    margin-bottom: 0;
+}
+
+.wow-enter {opacity:0;}
+.wow-enter-active {opacity:1; transition: all .5s;}
